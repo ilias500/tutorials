@@ -3,17 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.jsonwebtoken</groupId>
-    <artifactId>jjwtfun</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>jjwt</artifactId>
+    <name>jjwt</name>
     <packaging>jar</packaging>
-    <name>jjwtfun</name>
     <description>Exercising the JJWT</description>
 
     <parent>
-        <artifactId>parent-boot-5</artifactId>
         <groupId>com.baeldung</groupId>
+        <artifactId>parent-boot-1</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent-boot-5</relativePath>
+        <relativePath>../parent-boot-1</relativePath>
     </parent>
 
     <dependencies>
